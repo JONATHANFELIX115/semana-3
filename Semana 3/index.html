@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sitio de Ejemplo - Semana 3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Proyecto Semana 3: HTML5 Semántico</h1>
+    <p class="lead">Ejemplo práctico que demuestra etiquetas semánticas, multimedia, listas, tabla y formulario.</p>
+    <nav>
+      <ul>
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#tabla">Tabla</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduccion">
+      <h2>Introducción al proyecto</h2>
+      <article>
+        <h3>Objetivo</h3>
+        <p>Este proyecto demuestra el uso de <strong>etiquetas semánticas</strong> y la organización profesional de contenido web. Se aplican estilos mediante <em>CSS externo</em>.</p>
+      </article>
+    </section>
+
+    <section id="galeria">
+      <h2>Multimedia</h2>
+      <article>
+        <h3>Imagen de ejemplo</h3>
+        <!-- Imagen relativa desde tu carpeta assets -->
+        <img src="assets/img/imagen1.jpg" alt="Imagen de ejemplo - Semana 3" width="600" />
+      </article>
+
+      <article>
+        <h3>Video de ejemplo</h3>
+        <!-- Video relativo desde tu carpeta assets -->
+        <video controls width="640">
+          <source src="assets/video/video1.mp4" type="video/mp4">
+          Su navegador no soporta la etiqueta video.
+        </video>
+      </article>
+    </section>
+
+    <section id="listas">
+      <h2>Listas</h2>
+      <h3>Lista ordenada</h3>
+      <ol>
+        <li>Instalar herramientas</li>
+        <li>Crear estructura</li>
+        <li>Subir a GitHub</li>
+      </ol>
+
+      <h3>Lista desordenada</h3>
+      <ul>
+        <li>HTML5 semántico</li>
+        <li>CSS externo</li>
+        <li>Multimedia en assets</li>
+      </ul>
+    </section>
+
+    <section id="tabla">
+      <h2>Tabla de ejemplo</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Ítem</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Instalación de VS Code</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Configuración Live Server</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Publicar en GitHub Pages</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="enlaces">
+      <h2>Enlaces</h2>
+      <p>Enlace externo de ejemplo: <a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a></p>
+    </section>
+
+    <section id="contacto">
+      <h2>Formulario de contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br/>
+        <input type="text" id="nombre" name="nombre" required /><br/><br/>
+
+        <label for="correo">Correo:</label><br/>
+        <input type="email" id="correo" name="correo" required /><br/><br/>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - Proyecto Semana 3 - Tu Nombre</p>
+  </footer>
+</body>
+</html>
+
